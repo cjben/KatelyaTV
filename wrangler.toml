@@ -1,4 +1,4 @@
-name = "katelyatv"
+name = "chaotv"
 compatibility_date = "2024-09-01"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
@@ -11,13 +11,13 @@ database_id = "6d580637-1f87-4ddf-8b4d-3d97254b4c33"
 
 # 生产环境配置
 [env.production]
-name = "katelyatv"
+name = "chaotv"
 
 # 生产环境 D1 数据库配置
 [[env.production.d1_databases]]
-binding = "DB"
-database_name = "katelyatv-db"
-database_id = "6d580637-1f87-4ddf-8b4d-3d97254b4c33"
+binding = "chaotv"
+database_name = "chaotv"
+database_id = "161daf93-877c-4f8e-bd8e-44f86ba0bdb7"
 
 # 生产环境变量
 [env.production.vars]
